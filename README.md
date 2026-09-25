@@ -27,4 +27,4 @@ Bản này cải thiện hiển thị các Worker độc lập đã kết nối 
 
 ## Mã nguồn
 
-Ứng dụng được xây dựng bằng Go, Wails và Svelte, sử dụng FFmpeg để xử lý luồng video. Xem mã nguồn và tài liệu kỹ thuật tại [vat2003/go-live](https://github.com/vat2003/go-live).
+Ứng dụng được xây dựng bằng Go, Wails và Svelte, sử dụng FFmpeg để xử lý luồng video. Xem mã nguồn và tài liệu kỹ thuật tại
