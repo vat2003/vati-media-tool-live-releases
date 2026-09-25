@@ -2,17 +2,16 @@
 
 Public release downloads for VATI Media Tool Live.
 
-## Latest release: v5.22.60.9
+## Latest release: v5.22.60.33
 
-Download `vati-media-tool-live-amd64-installer.exe` from the GitHub release assets and run it on Windows x64.
+Download the [Windows x64 installer](https://github.com/vat2003/vati-media-tool-live-releases/releases/download/v5.22.60.33/vota-media-tool-live-amd64-installer-v5.22.60.33.exe) or view the [release notes and assets](https://github.com/vat2003/vati-media-tool-live-releases/releases/tag/v5.22.60.33).
 
-This release adds seamless replacement of a live video, HEVC copy-mode support through RTMP/RTMPS/HLS, Vietnamese operator-facing error messages, hidden FFmpeg helper windows, and a safer update handoff: the old desktop process exits before the downloaded installer starts.
+This hotfix keeps attached independent Workers visible in the stream list when a Worker status request temporarily fails. The Worker is marked unverified and stream controls are disabled until its status can be read again. The change does not stop or restart the Worker or FFmpeg.
 
-### Checksums
+Source: [vat2003/go-live](https://github.com/vat2003/go-live/commit/41db6047b17a15de5a2028ca5d3685f5715d71e8).
+
+### SHA-256
 
 | Asset | SHA-256 |
 | --- | --- |
-| `vati-media-tool-live.exe` | `A497F1511CC238060382CE4DE2E54628ABB9FD6947F433EC07F45D24F87650F8` |
-| `vati-media-tool-live-amd64-installer.exe` | `14FF972159858F7DEE77CB24A3CF292D3869E8F2EEA079072BF1DA821CF4C203` |
-
-Source code and documentation: [vat2003/go-live](https://github.com/vat2003/go-live).
+| `vota-media-tool-live-amd64-installer-v5.22.60.33.exe` | `f6409c93e4925d81b9c9d63b3298e8ea2bb7a96406ae8d289687a73d370c6265` |
